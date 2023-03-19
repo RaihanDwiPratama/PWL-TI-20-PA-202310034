@@ -1,9 +1,16 @@
 import React from 'react';
-import Form from "./components/Form";
+import SimpleHandler from './components/SimpleHandler';
+import Statement from './components/Statement';
+// import Form from "./components/Form";
+// import StickyNotes from "./components/StickyNotes";
+
 
 export default function App() {
   return (
-    <Form />
+    // <Form />
+    // <StickyNotes />
+    // <Statement />
+    <SimpleHandler />
   )
 }
 
