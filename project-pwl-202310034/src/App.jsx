@@ -1,8 +1,10 @@
 import React from 'react';
-import SimpleHandler from './components/SimpleHandler';
-import Statement from './components/Statement';
+import Widget1 from './components/compositions/Widget1';
+// import SimpleHandler from './components/SimpleHandler';
+// import Statement from './components/Statement';
 // import Form from "./components/Form";
 // import StickyNotes from "./components/StickyNotes";
+import FormProfile from './components/FormProfile';
 
 
 export default function App() {
@@ -10,7 +12,9 @@ export default function App() {
     // <Form />
     // <StickyNotes />
     // <Statement />
-    <SimpleHandler />
+    // <SimpleHandler />
+    // <FormProfile />
+    <Widget1 />
   )
 }
 
